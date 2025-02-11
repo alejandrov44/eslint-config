@@ -1,31 +1,31 @@
-# @book000/eslint-config
+# @alejandrov44/eslint-config
 
-ESLint config for [Tomachi (book000)](https://github.com/book000)
+ESLint config for [alejandrov44](https://github.com/alejandrov44)
 
 ## 🚀 Install
 
 If you are using npm:
 
 ```shell
-npm install eslint eslint-config-standard eslint-plugin-import eslint-plugin-n eslint-plugin-promise @book000/eslint-config
+npm install eslint eslint-config-standard eslint-plugin-import eslint-plugin-n eslint-plugin-promise @alejandrov44/eslint-config
 ```
 
 or if you are using yarn:
 
 ```shell
-yarn add eslint eslint-config-standard eslint-plugin-import eslint-plugin-n eslint-plugin-promise @book000/eslint-config
+yarn add eslint eslint-config-standard eslint-plugin-import eslint-plugin-n eslint-plugin-promise @alejandrov44/eslint-config
 ```
 
 or if you are using pnpm:
 
 ```shell
-pnpm add eslint eslint-config-standard eslint-plugin-import eslint-plugin-n eslint-plugin-promise @book000/eslint-config
+pnpm add eslint eslint-config-standard eslint-plugin-import eslint-plugin-n eslint-plugin-promise @alejandrov44/eslint-config
 ```
 
 Then, create `eslint.config.mjs` file and write the following:
 
 ```js
-export { default } from '@book000/eslint-config'
+export { default } from '@alejandrov44/eslint-config'
 ```
 
 ## 📑 License
