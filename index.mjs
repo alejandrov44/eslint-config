@@ -11,8 +11,7 @@ const compat = new FlatCompat();
 export default tseslint.config(
   ...compat.extends("eslint-config-standard"),
   ...tseslint.configs.recommended,
-  // @ts-expect-error flat/recommendedの返すpluginsがstring[]なことでエラーになるため
-  unicorn.configs["flat/recommended"],
+  unicorn.configs["recommended"],
   {
     files: ["**/*.ts", "**/*.tsx"],
     languageOptions: {
@@ -32,13 +31,10 @@ export default tseslint.config(
       ...tseslint.configs.stylisticTypeChecked,
     ],
     rules: {
-      // TypeScriptのany型の使用を許可する
+      "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
       "@typescript-eslint/no-explicit-any": "off",
-      // TypeScriptの危険な代入を許可する
       "@typescript-eslint/no-unsafe-assignment": "off",
-      // TypeScriptの危険な引数を許可する
       "@typescript-eslint/no-unsafe-argument": "off",
-      // テンプレート式において、数値や真偽値、nullishを許可する
       "@typescript-eslint/restrict-template-expressions": [
         "error",
         {
@@ -48,7 +44,6 @@ export default tseslint.config(
           allowNullish: true,
         },
       ],
-      // 呼び出されないPromiseを許容しないが、void演算子や即時関数では許可する
       "@typescript-eslint/no-floating-promises": [
         "error",
         {
@@ -56,21 +51,13 @@ export default tseslint.config(
           ignoreIIFE: true,
         },
       ],
-      // 不要な条件式を許容しないが、定数ループ条件（無限ループ）は許可する
       "@typescript-eslint/no-unnecessary-condition": [
         "error",
         {
           allowConstantLoopConditions: true,
         },
       ],
-      // 名前空間として使用されるクラスを許可する
-      "@typescript-eslint/no-extraneous-class": "off",
-      // トップレベルのawaitを許可する
       "unicorn/prefer-top-level-await": "off",
-      // 省略形を許可する (dev -> development, prod -> productionなどの変換をさせない)
-      "unicorn/prevent-abbreviations": "off",
-      // nullを許可する
-      "unicorn/no-null": "off",
     },
   },
   {
