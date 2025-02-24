@@ -9,6 +9,6 @@ jsxSingleQuote: false
 trailingComma: "all"
 bracketSpacing: true
 objectWrap: "collapse"
-bracketSameLine: true,
+bracketSameLine: true
 arrowParens: "always"
 endOfLine: "lf"
