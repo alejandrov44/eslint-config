@@ -16,7 +16,7 @@ export default tseslint.config(
     files: ["**/*.ts", "**/*.tsx"],
     languageOptions: {
       globals: {
-        ...globals.es2020,
+        ...globals.es2022,
         ...globals.node,
       },
       parser: tseslintParser,
