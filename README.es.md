@@ -3,42 +3,42 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/alejandrov44/eslint-config/blob/master/README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/alejandrov44/eslint-config/blob/master/README.es.md)
 
-ESLint + Prettier config for [alejandrov44](https://github.com/alejandrov44)
+Configuración de ESLint + Prettier usada por [alejandrov44](https://github.com/alejandrov44)
 
-## 🚀 Install
+## 🚀 Instalación
 
-If you are using npm:
+Si usas npm:
 
 ```shell
 npm install @alejandrov44/eslint-config
 ```
 
-or if you are using yarn:
+o si usas yarn:
 
 ```shell
 yarn add @alejandrov44/eslint-config
 ```
 
-or if you are using pnpm:
+o si usas pnpm:
 
 ```shell
 pnpm add @alejandrov44/eslint-config
 ```
 
-Then, create `eslint.config.mjs` file and write the following:
+Entonces, crea un fichero `eslint.config.mjs` y añadele lo siguiente:
 
 ```js
 export { default } from '@alejandrov44/eslint-config'
 ```
 
-## 📑 License
+## 📑 Licencia
 
-This project is licensed under the [MIT License](LICENSE).
+Este proyecto esta licenciado bajo la [MIT License](LICENSE).
 
-## ⭐ Star the repo!!!
+## ⭐ ¡Dale una estrella al repositorio!
  
-If I was able to help you, please star the repository. This will help me in my further work.
+Si pude ayudarte, por favor dale una estrella al repositorio. Esto me ayudará en futuros trabajos.
 
-## Contact Me:
+## Contáctame:
  
 [Discord](https://discord.gg/yGMknyc9)
