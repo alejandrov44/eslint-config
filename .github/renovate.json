@@ -1,0 +1,8 @@
+{
+  "extends": ["config:base", ":disableRateLimiting"],
+  "timezone": "Europe/Madrid",
+  "dependencyDashboard": false,
+  "automerge": true,
+  "platformAutomerge": true,
+  "assignees": ["alejandrov44"]
+}
