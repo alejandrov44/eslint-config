@@ -1,32 +1,53 @@
 {
   "name": "@alejandrov44/eslint-config",
-  "version": "1.0.0",
   "description": "Custom ESLint and Prettier config",
-  "keywords": [
-    "eslint-config"
-  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "alejandrov44",
+    "email": "alejandrovianalaba@gmail.com",
+    "url": "https://alejandrov44.pages.dev/"
+  },
   "homepage": "https://github.com/alejandrov44/eslint-config",
   "bugs": {
     "url": "https://github.com/alejandrov44/eslint-config/issues"
   },
+  "keywords": [
+    "check",
+    "checker",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslint-config",
+    "lint",
+    "policy",
+    "quality",
+    "standard",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
   "license": "MIT",
-  "author": "alejandrov44",
   "main": "index.mjs",
   "repository": {
     "type": "git",
     "url": "git@github.com:alejandrov44/eslint-config.git"
   },
   "dependencies": {
-    "@eslint/eslintrc": "3.2.0",
-    "@typescript-eslint/parser": "8.24.1",
-    "eslint-config-prettier": "10.0.1",
+    "@eslint/eslintrc": "3.3.0",
+    "@typescript-eslint/parser": "8.26.1",
+    "eslint-config-prettier": "10.1.1",
     "eslint-plugin-unicorn": "57.0.0",
-    "globals": "15.15.0",
-    "typescript-eslint": "8.24.1"
+    "globals": "16.0.0",
+    "typescript-eslint": "8.26.1"
   },
   "peerDependencies": {
-    "eslint": "9.20.1",
-    "eslint-config-standard": "17.1.0",
+    "eslint": "9.22.0",
     "prettier": "3.5.2"
   },
   "prettier": "prettier.config.ts",

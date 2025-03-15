@@ -9,7 +9,6 @@ import tseslint from "typescript-eslint";
 const compat = new FlatCompat();
 
 export default tseslint.config(
-  ...compat.extends("eslint-config-standard"),
   ...tseslint.configs.recommended,
   unicorn.configs["recommended"],
   {
