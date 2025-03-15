@@ -31,14 +31,27 @@ Entonces, crea un fichero `eslint.config.mjs` y añadele lo siguiente:
 export { default } from '@alejandrov44/eslint-config'
 ```
 
-## 📑 Licencia
+## ⭐ Muestra Tu Apoyo
 
-Este proyecto esta licenciado bajo la [MIT License](LICENSE).
+Si encuentras este proyecto útil o inspirador, dale una ⭐ en GitHub. Significa mucho para mí y me ayudará en futuros desarrollos.
 
-## ⭐ ¡Dale una estrella al repositorio!
- 
-Si pude ayudarte, por favor dale una estrella al repositorio. Esto me ayudará en futuros trabajos.
+## 🐛 Errores y Solicitudes de Funcionalidades
 
-## Contáctame:
- 
-[Discord](https://discord.gg/yGMknyc9)
+¿Encontraste un error? ¿Tienes una idea para mejorar el juego? 🤔 No dudes en abrir un issue o sugerir una nueva funcionalidad.
+
+1. Ve a la pestaña **Issues** en el repositorio.
+2. Haz clic en **New Issue**.
+3. Proporciona una descripción clara del error o solicitud de funcionalidad.
+4. Si es aplicable, incluye capturas de pantalla o pasos para reproducir el problema.
+
+Tu feedback es importante y ayuda a mejorar este proyecto para todos. ¡Gracias por contribuir!
+
+## 📜 Licencia
+
+Este proyecto está bajo la [Licencia MIT](LICENSE). ¡Siéntete libre de usarlo, modificarlo y compartirlo! 🌈
+
+## 📧 Contáctame
+
+- 💼 [Sitio Web de Portafolio](https://alejandrov44.pages.dev/)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/alejandro-viana/)
+- 📧 [Discord](https://discord.gg/yGMknyc9)
