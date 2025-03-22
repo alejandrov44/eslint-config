@@ -7,10 +7,16 @@
     "email": "alejandrovianalaba@gmail.com",
     "url": "https://alejandrov44.pages.dev/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alejandrov44/eslint-config.git"
+  },
   "homepage": "https://github.com/alejandrov44/eslint-config",
   "bugs": {
     "url": "https://github.com/alejandrov44/eslint-config/issues"
   },
+  "main": "index.js",
+  "type": "module",
   "keywords": [
     "check",
     "checker",
@@ -33,23 +39,29 @@
     "verify"
   ],
   "license": "MIT",
-  "main": "index.mjs",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:alejandrov44/eslint-config.git"
-  },
   "dependencies": {
-    "@eslint/eslintrc": "3.3.0",
+    "@eslint/js": "^9.22.0",
     "@typescript-eslint/parser": "8.26.1",
-    "eslint-config-prettier": "10.1.1",
-    "eslint-plugin-unicorn": "57.0.0",
+    "eslint-import-resolver-typescript": "^3.8.7",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-no-only-tests": "^3.3.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-typescript-sort-keys": "^3.3.0",
+    "eslint-plugin-unicorn": "^57.0.0",
+    "eslint-plugin-unused-imports": "~4.1.4",
     "globals": "16.0.0",
     "typescript-eslint": "8.26.1"
   },
-  "peerDependencies": {
-    "eslint": "9.22.0",
-    "prettier": "3.5.2"
+  "devDependencies": {
+    "eslint": "^9.22.0"
   },
-  "prettier": "prettier.config.ts",
-  "packageManager": "pnpm@10.6.3"
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
+  "scripts": {
+    "lint": "eslint -c index.js ."
+  }
 }
