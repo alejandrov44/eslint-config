@@ -51,7 +51,7 @@ jobs:
 
       - name: 👨🏻‍💻 Install dependencies
         run: |
-          pnpm install --no-frozen-lockfile
+          pnpm install
 
       - name: 🏷 Bump version and push tag
         id: tag-version
