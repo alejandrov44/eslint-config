@@ -63,5 +63,6 @@
   },
   "scripts": {
     "lint": "eslint -c index.js ."
-  }
+  },
+  "packageManager": "pnpm@10.6.3"
 }
